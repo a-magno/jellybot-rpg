@@ -22,3 +22,7 @@
 *.exe
 *.db
 *.development.json
+firestore.md
+README.md
+.vscode/project.code-snippets
+firebase.example.json

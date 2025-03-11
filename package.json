@@ -8,18 +8,19 @@
     "dev": "tsx --env-file .env ./src/index.ts",
     "dev:dev": "tsx --env-file .env.dev ./src/index.ts",
     "watch": "tsx --watch --env-file .env ./src/index.ts",
-    "watch:dev": "tsx --watch --env-file .env.dev ./src/index.ts",
+    "watch:dev": "tsx --watch --env-file .env.dev .",
     "start": "node --env-file .env .",
     "start:dev": "node --env-file .env.dev ."
   },
   "dependencies": {
+    "@dice-roller/rpg-dice-roller": "^5.5.1",
     "@magicyan/discord": "1.3.0",
     "chalk": "5.4.1",
     "cors": "^2.8.5",
     "discord.js": "14.18.0",
     "express": "^4.19.2",
     "fast-glob": "3.3.3",
-    "firebase-admin": "^11.11.1",
+    "firebase-admin": "^12.4.0",
     "firelord": "^2.7.1",
     "http-status-codes": "^2.3.0",
     "mathjs": "^14.3.1",
@@ -27,12 +28,12 @@
     "zod": "3.24.1"
   },
   "devDependencies": {
-    "@types/node": "20.17.12",
-    "tsx": "4.8.0",
-    "typescript": "5.7.2",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
-    "tsup": "^8.3.5"
+    "@types/node": "20.17.12",
+    "tsup": "^8.3.5",
+    "tsx": "4.8.0",
+    "typescript": "5.7.2"
   },
   "imports": {
     "#database": [
